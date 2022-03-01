@@ -5,6 +5,9 @@ Used car scraping script from popular italian websites
 * Always check selenium ChromeDriver version compatibility with current browser version
 * Proxy mode not stable as the proxies used are free and can sometimes not work.
 
+## Dependencies
+to install dependencies use pip install -r requirements.txt
+
 ## usage: 
 usage: scraping.py [-h] [--scraping {update}] [--browsing {proxy,no-proxy}] [--site {automobileit}] [--database DATABASE]
   
@@ -21,9 +24,6 @@ optional arguments:
   --database DATABASE   filepath to the database location eg < F:/DATABASE/USEDCARS/usedcars.db >
 
 chromedrive.exe correct version for your chrome browser is required
-
-## Dependencies
-to install dependencies use pip install -r req.txt
 
 ## Roadmap
 + Handle all proxies exceptions and retry when not working
