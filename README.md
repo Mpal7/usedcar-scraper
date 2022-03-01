@@ -1,6 +1,6 @@
 # usedcar-ml
 Used car scraping script from popular italian websites 
-##Warnings:  
+## Warnings:  
 * Website HTML can change overtime causing the code to not work in some areas
 * Always check selenium ChromeDriver version compatibility with current browser version
 * Proxy mode not stable as the proxies used are free and can sometimes not work.
