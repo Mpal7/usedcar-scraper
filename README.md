@@ -23,25 +23,7 @@ optional arguments:
 chromedrive.exe correct version for your chrome browser is required
 
 ## Dependencies
-import argparse  
-import datetime  
-import json  
-import logging  
-import random  
-import re  
-import time  
-from logging.handlers import RotatingFileHandler  
-import pandas as pd  
-from bs4 import BeautifulSoup, SoupStrainer  
-from fake_useragent import UserAgent  
-from selenium import webdriver  
-from selenium.webdriver.chrome.options import Options  
-from selenium.webdriver.common.by import By  
-from selenium.webdriver.support import expected_conditions as EC  
-from selenium.webdriver.support.ui import WebDriverWait  
-from sqlalchemy import create_engine  
-from sqlite_db import Database  
-import sqlite3
+to install dependencies use pip install -r req.txt
 
 ## Roadmap
 + Handle all proxies exceptions and retry when not working
