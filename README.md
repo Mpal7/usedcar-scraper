@@ -6,7 +6,8 @@ Used car scraping script from popular italian websites
 * Proxy mode not stable as the proxies used are free and can sometimes not work.
 
 ## Dependencies
-to install dependencies use pip install -r requirements.txt
+to install dependencies use:  
+`pip install -r requirements.txt`
 
 ## usage: 
  ```
