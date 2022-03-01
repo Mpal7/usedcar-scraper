@@ -9,6 +9,7 @@ Used car scraping script from popular italian websites
 to install dependencies use pip install -r requirements.txt
 
 ## usage: 
+ ```
 usage: scraping.py [-h] [--scraping {update}] [--browsing {proxy,no-proxy}] [--site {automobileit}] [--database DATABASE]
   
 optional arguments:  
@@ -22,6 +23,7 @@ optional arguments:
   --site {automobileit} site to scrape, more sites to be added in the future
 
   --database DATABASE   filepath to the database location eg < F:/DATABASE/USEDCARS/usedcars.db >
+   ```
 
 chromedrive.exe correct version for your chrome browser is required
 
