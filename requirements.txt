@@ -1,0 +1,7 @@
+argparse
+pandas 
+beautifulsoup4
+fake-useragent
+user_agent
+selenium 
+SQLAlchemy
