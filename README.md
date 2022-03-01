@@ -10,8 +10,9 @@ to install dependencies use pip install -r requirements.txt
 
 ## usage: 
  ```
-usage: scraping.py [-h] [--scraping {update}] [--browsing {proxy,no-proxy}] [--site {automobileit}] [--database DATABASE]
-  
+scraping.py [-h] [--scraping {update}] [--browsing {proxy,no-proxy}] [--site {automobileit}] [--database DATABASE]
+ ```
+```
 optional arguments:  
 
   -h, --help            show this help message and exit  
