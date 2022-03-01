@@ -5,7 +5,7 @@ Used car scraping script from popular italian websites
 * Always check selenium ChromeDriver version compatibility with current browser version
 * Proxy mode not stable as the proxies used are free and can sometimes not work.
 
-##usage: 
+## usage: 
 usage: scraping.py [-h] [--scraping {update}] [--browsing {proxy,no-proxy}] [--site {automobileit}] [--database DATABASE]
   
 optional arguments:  
@@ -43,7 +43,7 @@ from sqlalchemy import create_engine
 from sqlite_db import Database  
 import sqlite3
 
-##Roadmap
+## Roadmap
 + Handle all proxies exceptions and retry when not working
 + Multiple scraping sites support
 + scrape data for specific car models
