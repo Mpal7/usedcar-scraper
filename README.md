@@ -11,7 +11,7 @@ to install dependencies use:
 
 ## usage: 
  ```
-scraping.py [-h] [--scraping {update}] [--browsing {proxy,no-proxy}] [--site {automobileit}] [--database DATABASE]
+python scraping.py [-h] [--scraping {update}] [--browsing {proxy,no-proxy}] [--site {automobileit}] [--database DATABASE]
  ```
 ```
 optional arguments:  
